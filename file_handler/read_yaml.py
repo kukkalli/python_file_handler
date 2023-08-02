@@ -19,13 +19,17 @@ class ReadFile:
     def read_yaml(self):
         with open(self.absolute_file_name, 'r') as f:
             self.data = yaml.load(f, Loader=SafeLoader)
+            f.close()
+        return self.data
+
+    def read_openapi_yaml(self):
+        with open(self.absolute_file_name, 'r') as f:
+            self.data = yaml.load(f, Loader=SafeLoader)
             # print(data)
             self.set_info()
             self.set_external_docs()
-            self.set_other()
-
-    def read(self):
-        self.file = open(self.absolute_file_name, 'r')
+            # self.set_other()
+            f.close()
 
     def set_info(self):
         self.title = self.data['info']['title']
@@ -53,7 +57,8 @@ class ReadFile:
             print(token)
 
     def get_references(self) -> dict[str, str]:
-        lines: list[AnyStr] = self.file.readlines()
+        file = open(self.absolute_file_name, 'r')
+        lines: list[AnyStr] = file.readlines()
         for line in lines:
             if line.find("$ref: 'TS") != -1:
                 # count = line.find("$ref: 'TS")
@@ -66,4 +71,5 @@ class ReadFile:
                 # print(f"file name: {line[count_start:count_end]}")
                 file_name = line[count_start:count_end]
                 self.references_list[file_name] = file_name
+        file.close()
         return self.references_list
