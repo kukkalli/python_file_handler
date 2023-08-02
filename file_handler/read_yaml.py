@@ -20,6 +20,8 @@ class ReadFile:
         with open(self.absolute_file_name, 'r') as f:
             self.data = yaml.load(f, Loader=SafeLoader)
             f.close()
+        if self.data is None:
+            return []
         return self.data
 
     def read_openapi_yaml(self):
@@ -43,8 +45,10 @@ class ReadFile:
 
     def set_external_docs(self):
         # print(f"ExternalDocs: {self.data['externalDocs']}")
-        self.description2 = self.data['externalDocs']['description']
-        self.url = self.data['externalDocs']['url']
+        if 'externalDocs' in self.data:
+            print(f"File name if error: {self.absolute_file_name}")
+            self.description2 = self.data['externalDocs']['description']
+            self.url = self.data['externalDocs']['url']
 
     def get_description2(self):
         return self.description2

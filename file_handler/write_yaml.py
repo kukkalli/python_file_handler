@@ -14,11 +14,11 @@ class WriteFile:
         print(f"Existing File Data: {self.file}")
         self.file.close()
 
-    def write_to_yaml(self, dict_object, overwrite: bool):
+    def write_to_yaml(self, dict_object: list, overwrite: False):
 
         if overwrite:
             overwrite = 'w'
         else:
             overwrite = "a"
         with open(self.file_name, overwrite) as f:
-            yaml.dump(dict_object, f, sort_keys=False, default_flow_style=False)
+            yaml.dump(dict_object, f, sort_keys=True, default_flow_style=False)
