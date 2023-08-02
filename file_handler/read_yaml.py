@@ -4,7 +4,7 @@ import yaml
 from yaml.loader import SafeLoader
 
 
-class ReadYAML():
+class ReadFile:
 
     def __init__(self, file_name):
         self.absolute_file_name = file_name
@@ -16,15 +16,16 @@ class ReadYAML():
         self.url = ""
         self.references_list: dict[str, str] = {}
 
-    def read(self):
+    def read_yaml(self):
         with open(self.absolute_file_name, 'r') as f:
             self.data = yaml.load(f, Loader=SafeLoader)
             # print(data)
             self.set_info()
             self.set_external_docs()
             self.set_other()
+
+    def read(self):
         self.file = open(self.absolute_file_name, 'r')
-        # print(f"File: {self.file}")
 
     def set_info(self):
         self.title = self.data['info']['title']
@@ -51,13 +52,13 @@ class ReadYAML():
         for token in self.data:
             print(token)
 
-    def get_other_references(self) -> dict[str, str]:
+    def get_references(self) -> dict[str, str]:
         lines: list[AnyStr] = self.file.readlines()
         for line in lines:
             if line.find("$ref: 'TS") != -1:
                 # count = line.find("$ref: 'TS")
                 # print(f"Count: {count}")
-                count_start = line.find("TS", 10)
+                count_start = line.find("TS")
                 # print(f"Count Start: {count_start}")
                 count_end = line.find(".yaml#") + 5
                 # print(f"Count End: {count_end}")
