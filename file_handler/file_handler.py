@@ -6,15 +6,20 @@ from write_yaml import WriteFile
 
 class FileHandler:
     def __init__(self, yaml_path: str, result_file_path: str):
-        self.added_files_dict: dict[str, str] = {}
-        self.added_files_list: list[str] = []
-        self.result_file_path: str = result_file_path
         self.yaml_path = yaml_path
+        self.result_file_path: str = result_file_path
+
+        self.added_files_list: list[str] = []
+        self.added_files_dict: dict[str, str] = {}
+        self.missing_files_list: list[str] = []
+        self.missing_files_dict: dict[str, str] = {}
+        self.openapi_list: list[dict] = []
+        self.openapi_dict: dict[str, dict] = {}
+
         self.yaml_files_list: list[str] = []
+
         self.list_references: list[str] = []
         self.dict_references: dict[str, str] = {}
-        self.missing_files_list: list[str] = []
-        self.openapi_list: list[dict[str, str]] = []
 
     def list_files(self):
         self.yaml_files_list = glob.glob(self.yaml_path + "*.yaml")
@@ -24,7 +29,20 @@ class FileHandler:
         read_files_added_list = ReadFile(self.result_file_path + "files_added.yaml")
         files_added = read_files_added_list.read_yaml()
         for file_added in files_added:
-            self.added_files_dict[file_added] = files_added
+            self.added_files_dict[file_added] = file_added
+
+    def read_openapi_list(self):
+        read_openapi_list = ReadFile(self.result_file_path + "complete_openapi.yaml")
+        complete_openapi = read_openapi_list.read_yaml()
+        for openapi in complete_openapi:
+            # print(f"Added file in openapi: {openapi['file_name']}")
+            self.openapi_dict[openapi["file_name"]] = openapi
+
+    def read_missing_openapi(self):
+        read_missing_openapi = ReadFile(self.result_file_path + "missing_openapi.yaml")
+        missing_openapi = read_missing_openapi.read_yaml()
+        for openapi in missing_openapi:
+            self.missing_files_dict[openapi] = openapi
 
     def find_references(self):
         index_length = len(self.yaml_path)
@@ -60,7 +78,7 @@ class FileHandler:
 
     def write_openapi_files(self):
         writer = WriteFile(self.result_file_path + "complete_openapi.yaml")
-        writer.write_to_yaml(self.openapi_list, False)
+        writer.write_to_yaml(self.openapi_list, True)
 
     def write_missing_files_names_to_yaml(self):
         references_list = list(self.dict_references.keys())
@@ -68,13 +86,16 @@ class FileHandler:
             if reference_file not in self.added_files_dict:
                 self.missing_files_list.append(reference_file)
         self.missing_files_list.sort()
-        print(f"Count of missing files: {len(self.missing_files_list)}")
         writer = WriteFile(self.result_file_path + "missing_openapi.yaml")
         writer.write_to_yaml(self.missing_files_list, True)
 
     def check_completeness(self):
         self.read_files_added_list()
+        self.read_openapi_list()
+        self.read_missing_openapi()
+
         self.list_files()
+
         self.find_references()
         self.write_files_added()
         self.write_openapi_files()

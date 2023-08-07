@@ -1,0 +1,890 @@
+- description: "OAS 3.0.1 definition of the Fault Supervision MnS \xA9 2023, 3GPP\
+    \ Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC). All rights\
+    \ reserved."
+  description2: 3GPP TS 28.532; Generic management services
+  file_name: TS28532_FaultMnS.yaml
+  references:
+  - TS28623_ComDefs.yaml
+  title: Fault Supervision MnS
+  url: http://www.3gpp.org/ftp/Specs/archive/28_series/28.532/
+- description: "OAS 3.0.1 definition of the File Data Reporting MnS \xA9 2023, 3GPP\
+    \ Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC). All rights\
+    \ reserved."
+  description2: 3GPP TS 28.532; Generic management services
+  file_name: TS28532_FileDataReportingMnS.yaml
+  references:
+  - TS28532_FaultMnS.yaml
+  - TS28623_ComDefs.yaml
+  title: File Data Reporting MnS
+  url: http://www.3gpp.org/ftp/Specs/archive/28_series/28.532/
+- description: "OAS 3.0.1 definition of the heartbeat notification \xA9 2023, 3GPP\
+    \ Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC). All rights\
+    \ reserved."
+  description2: 3GPP TS 28.532 V16.6.0; Generic management services
+  file_name: TS28532_HeartbeatNtf.yaml
+  references:
+  - TS28623_ComDefs.yaml
+  title: Heartbeat notification
+  url: http://www.3gpp.org/ftp/Specs/archive/28_series/28.6532/
+- description: "OAS 3.0.1 definition of the Performance Threshold Monitoring MnS \xA9\
+    \ 2023, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\
+    \ All rights reserved."
+  description2: 3GPP TS 28.532 V16.6.0; Generic management services
+  file_name: TS28532_PerfMnS.yaml
+  references:
+  - TS28623_ComDefs.yaml
+  title: TS 28.532 Performance Threshold Monitoring MnS
+  url: http://www.3gpp.org/ftp/Specs/archive/28_series/28.532/
+- description: "OAS 3.0.1 definition of the Provisioning MnS \xA9 2023, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC). All rights reserved."
+  description2: 3GPP TS 28.532; Generic management services
+  file_name: TS28532_ProvMnS.yaml
+  references:
+  - TS28536_CoslaNrm.yaml
+  - TS28541_5GcNrm.yaml
+  - TS28541_NrNrm.yaml
+  - TS28541_SliceNrm.yaml
+  - TS28623_ComDefs.yaml
+  - TS28623_GenericNrm.yaml
+  title: Provisioning MnS
+  url: http://www.3gpp.org/ftp/Specs/archive/28_series/28.532/
+- description: "OAS 3.0.1 specification for the Streaming data reporting service (Streaming\
+    \ MnS) \xA9 2023, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI,\
+    \ TTA, TTC). All rights reserved."
+  description2: ''
+  file_name: TS28532_StreamingDataMnS.yaml
+  references:
+  - TS28623_GenericNrm.yaml
+  title: TS 28.532 Streaming data reporting service
+  url: ''
+- description: "OAS 3.0.1 specification of the Cosla NRM \xA9 2020, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC). All rights reserved.\n"
+  description2: 3GPP TS 28.536 V16.4.0; Cosla NRM
+  file_name: TS28536_CoslaNrm.yaml
+  references:
+  - TS28623_ComDefs.yaml
+  - TS28623_GenericNrm.yaml
+  title: coslaNrm
+  url: http://www.3gpp.org/ftp/Specs/archive/28_series/28.536/
+- description: "OAS 3.0.1 specification of the 5GC NRM \xA9 2023, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC). All rights reserved."
+  description2: 3GPP TS 28.541; 5G NRM, 5GC NRM
+  file_name: TS28541_5GcNrm.yaml
+  references:
+  - TS28541_NrNrm.yaml
+  - TS28623_ComDefs.yaml
+  - TS28623_GenericNrm.yaml
+  - TS29512_Npcf_SMPolicyControl.yaml
+  - TS29514_Npcf_PolicyAuthorization.yaml
+  - TS29571_CommonData.yaml
+  title: 3GPP 5GC NRM
+  url: http://www.3gpp.org/ftp/Specs/archive/28_series/28.541/
+- description: "OAS 3.0.1 specification of the NR NRM \xA9 2023, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC). All rights reserved."
+  description2: 3GPP TS 28.541; 5G NRM, NR NRM
+  file_name: TS28541_NrNrm.yaml
+  references:
+  - TS28541_5GcNrm.yaml
+  - TS28623_ComDefs.yaml
+  - TS28623_GenericNrm.yaml
+  title: NR NRM
+  url: http://www.3gpp.org/ftp/Specs/archive/28_series/28.541/
+- description: "OAS 3.0.1 specification of the Slice NRM \xA9 2023, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC). All rights reserved."
+  description2: 3GPP TS 28.541; 5G NRM, Slice NRM
+  file_name: TS28541_SliceNrm.yaml
+  references:
+  - TS28541_5GcNrm.yaml
+  - TS28541_NrNrm.yaml
+  - TS28623_ComDefs.yaml
+  - TS28623_GenericNrm.yaml
+  title: Slice NRM
+  url: http://www.3gpp.org/ftp/Specs/archive/28_series/28.541/
+- description: "OAS 3.0.1 specification of common type definitions in the Generic\
+    \ NRM \xA9 2021, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI,\
+    \ TTA, TTC). All rights reserved."
+  description2: 3GPP TS 28.623; Generic NRM; Common type definitions
+  file_name: TS28623_ComDefs.yaml
+  references:
+  - TS28532_FaultMnS.yaml
+  - TS28532_FileDataReportingMnS.yaml
+  - TS28532_HeartbeatNtf.yaml
+  - TS28532_PerfMnS.yaml
+  - TS28532_ProvMnS.yaml
+  title: Common Type Definitions
+  url: http://www.3gpp.org/ftp/Specs/archive/28_series/28.623/
+- description: "OAS 3.0.1 definition of the Generic NRM \xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC). All rights reserved."
+  description2: 3GPP TS 28.623; Generic NRM
+  file_name: TS28623_GenericNrm.yaml
+  references:
+  - TS28532_FaultMnS.yaml
+  - TS28623_ComDefs.yaml
+  title: Generic NRM
+  url: http://www.3gpp.org/ftp/Specs/archive/28_series/28.623/
+- description: "API for setting us an AS session with required QoS.\n\xA9 2022, 3GPP\
+    \ Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights\
+    \ reserved.\n"
+  description2: 3GPP TS 29.122 V16.14.0 T8 reference point for Northbound APIs
+  file_name: TS29122_AsSessionWithQoS.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29512_Npcf_SMPolicyControl.yaml
+  - TS29514_Npcf_PolicyAuthorization.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-as-session-with-qos
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for Chargeable Party management.\n\xA9 2022, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V16.14.0 T8 reference point for Northbound APIs
+  file_name: TS29122_ChargeableParty.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29514_Npcf_PolicyAuthorization.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-chargeable-party
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "Data types applicable to several APIs.\n\xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V16.9.0 T8 reference point for Northbound APIs
+  file_name: TS29122_CommonData.yaml
+  references:
+  - TS29554_Npcf_BDTPolicyControl.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: TS 29.122 Common Data Types
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for provisioning communication pattern parameters.\n\xA9 2021,\
+    \ 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll\
+    \ rights reserved.\n"
+  description2: 3GPP TS 29.122 V16.9.0 T8 reference point for Northbound APIs
+  file_name: TS29122_CpProvisioning.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-cp-parameter-provisioning
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for device trigger.\n\xA9 2021, 3GPP Organizational Partners (ARIB,\
+    \ ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V16.9.0 T8 reference point for Northbound APIs
+  file_name: TS29122_DeviceTriggering.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-device-triggering
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for enhanced converage restriction control.\n\xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V16.9.0 T8 reference point for Northbound APIs
+  file_name: TS29122_ECRControl.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29503_Nudm_SDM.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-ecr-control
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for Group Message Delivery via MBMS by MB2\n\xA9 2019, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V15.4.0 T8 reference point for Northbound APIs
+  file_name: TS29122_GMDviaMBMSbyMB2.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: GMDviaMBMSbyMB2
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for Group Message Delivery via MBMS by xMB\n\xA9 2020, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V16.6.0 T8 reference point for Northbound APIs
+  file_name: TS29122_GMDviaMBMSbyxMB.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: GMDviaMBMSbyxMB
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for Monitoring Event.\n\xA9 2021, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V16.9.0 T8 reference point for Northbound APIs
+  file_name: TS29122_MonitoringEvent.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29515_Ngmlc_Location.yaml
+  - TS29571_CommonData.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: 3gpp-monitoring-event
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for MSISDN-less Mobile Originated SMS.\n\xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V16.9.0 T8 reference point for Northbound APIs
+  file_name: TS29122_MsisdnLessMoSms.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-msisdn-less-mo-sms
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for non IP data delivery.\n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V16.14.0 T8 reference point for Northbound APIs
+  file_name: TS29122_NIDD.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-nidd
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for network parameter configuration.\n\xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V16.9.0 T8 reference point for Northbound APIs
+  file_name: TS29122_NpConfiguration.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29122_MonitoringEvent.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-network-parameter-configuration
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for PFD management.\n\xA9 2023, 3GPP Organizational Partners (ARIB,\
+    \ ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V16.16.0 T8 reference point for Northbound APIs
+  file_name: TS29122_PfdManagement.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-pfd-management
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for provisioning UE radio capability parameters.\n\xA9 2021, 3GPP\
+    \ Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights\
+    \ reserved.\n"
+  description2: 3GPP TS 29.122 V16.9.0 T8 reference point for Northbound APIs
+  file_name: TS29122_RacsParameterProvisioning.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-racs-parameter-provisioning
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for reporting network status.\n\xA9 2019, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V15.4.0 T8 reference point for Northbound APIs
+  file_name: TS29122_ReportingNetworkStatus.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-network-status-reporting
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "API for BDT resouce management.\n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.122 V16.14.0 T8 reference point for Northbound APIs
+  file_name: TS29122_ResourceManagementOfBdt.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-bdt
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.122/
+- description: "SMF PDU Session Service.\n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.502 V16.14.0; 5G System; Session Management Services; Stage
+    3
+  file_name: TS29502_Nsmf_PDUSession.yaml
+  references:
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29512_Npcf_SMPolicyControl.yaml
+  - TS29518_Namf_Communication.yaml
+  - TS29519_Policy_Data.yaml
+  - TS29571_CommonData.yaml
+  - TS32291_Nchf_ConvergedCharging.yaml
+  title: Nsmf_PDUSession
+  url: https://www.3gpp.org/ftp/Specs/archive/29_series/29.502/
+- description: "Nudm Event Exposure Service.  \n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n"
+  description2: 3GPP TS 29.503 Unified Data Management Services, version 16.11.0
+  file_name: TS29503_Nudm_EE.yaml
+  references:
+  - TS29503_Nudm_SDM.yaml
+  - TS29518_Namf_EventExposure.yaml
+  - TS29571_CommonData.yaml
+  title: Nudm_EE
+  url: https://www.3gpp.org/ftp/Specs/archive/29_series/29.503/
+- description: "UDM MT Service.\n\xA9 2021, 3GPP Organizational Partners (ARIB, ATIS,\
+    \ CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.503 Unified Data Management Services, version 16.10.0
+  file_name: TS29503_Nudm_MT.yaml
+  references:
+  - TS29518_Namf_EventExposure.yaml
+  - TS29518_Namf_MT.yaml
+  - TS29571_CommonData.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: Nudm_MT
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.503/
+- description: "Nudm NIDD Authorization Service.  \n\xA9 2022, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n"
+  description2: 3GPP TS 29.503 Unified Data Management Services, version 16.13.0
+  file_name: TS29503_Nudm_NIDDAU.yaml
+  references:
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29571_CommonData.yaml
+  title: Nudm_NIDDAU
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.503/
+- description: "Nudm Parameter Provision Service.\n\xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.503 Unified Data Management Services, version 16.8.0
+  file_name: TS29503_Nudm_PP.yaml
+  references:
+  - TS29503_Nudm_SDM.yaml
+  - TS29571_CommonData.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: Nudm_PP
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.503/
+- description: "Nudm Subscriber Data Management Service.  \n\xA9 2022, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n"
+  description2: 3GPP TS 29.503 Unified Data Management Services, version 16.11.0
+  file_name: TS29503_Nudm_SDM.yaml
+  references:
+  - TS29503_Nudm_PP.yaml
+  - TS29503_Nudm_UECM.yaml
+  - TS29509_Nausf_SoRProtection.yaml
+  - TS29509_Nausf_UPUProtection.yaml
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29519_Policy_Data.yaml
+  - TS29571_CommonData.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: Nudm_SDM
+  url: https://www.3gpp.org/ftp/Specs/archive/29_series/29.503/
+- description: "UDM UE Authentication Service.  \n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n"
+  description2: 3GPP TS 29.503 Unified Data Management Services, version 16.12.0
+  file_name: TS29503_Nudm_UEAU.yaml
+  references:
+  - TS29571_CommonData.yaml
+  title: Nudm_UEAU
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.503/
+- description: "Nudm Context Management Service.  \n\xA9 2022, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n"
+  description2: 3GPP TS 29.503 Unified Data Management Services, version 16.14.0
+  file_name: TS29503_Nudm_UECM.yaml
+  references:
+  - TS29503_Nudm_SDM.yaml
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29571_CommonData.yaml
+  title: Nudm_UECM
+  url: https://www.3gpp.org/ftp/Specs/archive/29_series/29.503/
+- description: "Unified Data Repository Service (subscription data).\nThe API version\
+    \ is defined in 3GPP TS 29.504.\n\xA9 2022, 3GPP Organizational Partners (ARIB,\
+    \ ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.505 V16.10.0; 5G System; Usage of the Unified Data Repository
+    Service for subscription data; Stage 3
+  file_name: TS29505_Subscription_Data.yaml
+  references:
+  - TS29503_Nudm_EE.yaml
+  - TS29503_Nudm_NIDDAU.yaml
+  - TS29503_Nudm_PP.yaml
+  - TS29503_Nudm_SDM.yaml
+  - TS29503_Nudm_UEAU.yaml
+  - TS29503_Nudm_UECM.yaml
+  - TS29509_Nausf_SoRProtection.yaml
+  - TS29509_Nausf_UPUProtection.yaml
+  - TS29571_CommonData.yaml
+  title: Unified Data Repository Service API file for subscription data
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.505/
+- description: "Access and Mobility Policy Control Service.\n\xA9 2022, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.507 V16.11.0; 5G System; Access and Mobility Policy Control
+    Service.
+  file_name: TS29507_Npcf_AMPolicyControl.yaml
+  references:
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29531_Nnssf_NSSelection.yaml
+  - TS29571_CommonData.yaml
+  title: Npcf_AMPolicyControl
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.507/
+- description: "Session Management Event Exposure Service.\n\xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.508 V16.10.0; 5G System; Session Management Event Exposure
+    Service.
+  file_name: TS29508_Nsmf_EventExposure.yaml
+  references:
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29514_Npcf_PolicyAuthorization.yaml
+  - TS29518_Namf_EventExposure.yaml
+  - TS29522_TrafficInfluence.yaml
+  - TS29571_CommonData.yaml
+  title: Nsmf_EventExposure
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.508/
+- description: "AUSF SoR Protection Service.\n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.509 V16.9.0; 5G System; Authentication Server Services
+  file_name: TS29509_Nausf_SoRProtection.yaml
+  references:
+  - TS29571_CommonData.yaml
+  title: Nausf_SoRProtection Service
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.509
+- description: "AUSF UE Authentication Service.\n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.509 V16.9.0; 5G System; 3GPP TS Authentication Server services.
+  file_name: TS29509_Nausf_UEAuthentication.yaml
+  references:
+  - TS29503_Nudm_UEAU.yaml
+  - TS29571_CommonData.yaml
+  title: AUSF API
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.509
+- description: "AUSF UPU Protection Service\n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.509 V16.9.0; 5G System; Authentication Server Services
+  file_name: TS29509_Nausf_UPUProtection.yaml
+  references:
+  - TS29509_Nausf_SoRProtection.yaml
+  - TS29544_Nspaf_SecuredPacket.yaml
+  - TS29571_CommonData.yaml
+  title: Nausf_UPUProtection Service
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.509
+- description: "NRF OAuth2 Authorization.  \n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n"
+  description2: 3GPP TS 29.510 V16.11.0; 5G System; Network Function Repository Services;
+    Stage 3
+  file_name: TS29510_Nnrf_AccessToken.yaml
+  references:
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29571_CommonData.yaml
+  title: NRF OAuth2
+  url: https://www.3gpp.org/ftp/Specs/archive/29_series/29.510/
+- description: "NRF Bootstrapping.\n\xA9 2021, 3GPP Organizational Partners (ARIB,\
+    \ ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.510 V16.8.0; 5G System; Network Function Repository Services;
+    Stage 3
+  file_name: TS29510_Nnrf_Bootstrapping.yaml
+  references:
+  - TS29571_CommonData.yaml
+  title: NRF Bootstrapping
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.510/
+- description: "NRF NFDiscovery Service.  \n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n"
+  description2: 3GPP TS 29.510 V16.13.0; 5G System; Network Function Repository Services;
+    Stage 3
+  file_name: TS29510_Nnrf_NFDiscovery.yaml
+  references:
+  - TS29503_Nudm_SDM.yaml
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29518_Namf_Communication.yaml
+  - TS29520_Nnwdaf_AnalyticsInfo.yaml
+  - TS29520_Nnwdaf_EventsSubscription.yaml
+  - TS29571_CommonData.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: NRF NFDiscovery Service
+  url: https://www.3gpp.org/ftp/Specs/archive/29_series/29.510/
+- description: "NRF NFManagement Service.  \n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n"
+  description2: 3GPP TS 29.510 V16.13.0; 5G System; Network Function Repository Services;
+    Stage 3
+  file_name: TS29510_Nnrf_NFManagement.yaml
+  references:
+  - TS29517_Naf_EventExposure.yaml
+  - TS29518_Namf_Communication.yaml
+  - TS29520_Nnwdaf_AnalyticsInfo.yaml
+  - TS29520_Nnwdaf_EventsSubscription.yaml
+  - TS29571_CommonData.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: NRF NFManagement Service
+  url: https://www.3gpp.org/ftp/Specs/archive/29_series/29.510/
+- description: "Session Management Policy Control Service\n\xA9 2023, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.512 V16.17.0; 5G System; Session Management Policy Control
+    Service.
+  file_name: TS29512_Npcf_SMPolicyControl.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29502_Nsmf_PDUSession.yaml
+  - TS29514_Npcf_PolicyAuthorization.yaml
+  - TS29519_Policy_Data.yaml
+  - TS29571_CommonData.yaml
+  - TS32291_Nchf_ConvergedCharging.yaml
+  title: Npcf_SMPolicyControl API
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.512/
+- description: "PCF Policy Authorization Service.\n\xA9 2023, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.514 V16.17.0; 5G System; Policy Authorization Service;Stage
+    3.
+  file_name: TS29514_Npcf_PolicyAuthorization.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29512_Npcf_SMPolicyControl.yaml
+  - TS29571_CommonData.yaml
+  - TS32291_Nchf_ConvergedCharging.yaml
+  title: Npcf_PolicyAuthorization Service API
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.514/
+- description: "Ngmlc_Location Service.\n\xA9 2021, 3GPP Organizational Partners (ARIB,\
+    \ ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.515 V16.7.0; 5G System; Gateway Mobile Location Services;
+    Stage 3
+  file_name: TS29515_Ngmlc_Location.yaml
+  references:
+  - TS29518_Namf_Location.yaml
+  - TS29571_CommonData.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: Ngmlc_Location
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.515/
+- description: "AF Event Exposure Service.\n\xA9 2021, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.517 V16.5.0; 5G System; Application Function Event Exposure
+    Service; Stage 3.
+  file_name: TS29517_Naf_EventExposure.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29503_Nudm_SDM.yaml
+  - TS29514_Npcf_PolicyAuthorization.yaml
+  - TS29520_Nnwdaf_EventsSubscription.yaml
+  - TS29523_Npcf_EventExposure.yaml
+  - TS29571_CommonData.yaml
+  title: Naf_EventExposure
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.517/
+- description: "AMF Communication Service\n\xA9 2023, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.518 V16.15.0; 5G System; Access and Mobility Management
+    Services
+  file_name: TS29518_Namf_Communication.yaml
+  references:
+  - TS29502_Nsmf_PDUSession.yaml
+  - TS29503_Nudm_SDM.yaml
+  - TS29507_Npcf_AMPolicyControl.yaml
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29518_Namf_EventExposure.yaml
+  - TS29531_Nnssf_NSSelection.yaml
+  - TS29571_CommonData.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: Namf_Communication
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.518/
+- description: "AMF Event Exposure Service\n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.518 V16.13.0; 5G System; Access and Mobility Management
+    Services
+  file_name: TS29518_Namf_EventExposure.yaml
+  references:
+  - TS29503_Nudm_EE.yaml
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29531_Nnssf_NSSelection.yaml
+  - TS29571_CommonData.yaml
+  title: Namf_EventExposure
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.518/
+- description: "AMF Location Service\n\xA9 2022, 3GPP Organizational Partners (ARIB,\
+    \ ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.518 V16.13.0; 5G System; Access and Mobility Management
+    Services
+  file_name: TS29518_Namf_Location.yaml
+  references:
+  - TS29503_Nudm_UECM.yaml
+  - TS29515_Ngmlc_Location.yaml
+  - TS29571_CommonData.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: Namf_Location
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.518/
+- description: "AMF Mobile Terminated Service\n\xA9 2021, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.518 V16.10.0; 5G System; Access and Mobility Management
+    Services
+  file_name: TS29518_Namf_MT.yaml
+  references:
+  - TS29518_Namf_EventExposure.yaml
+  - TS29571_CommonData.yaml
+  title: Namf_MT
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.518/
+- description: "The API version is defined in 3GPP TS 29.504\n\xA9 2022, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.519 V16.10.0; 5G System; Usage of the Unified Data Repository
+    Service for Policy Data, Application Data and Structured Data for Exposure.
+  file_name: TS29519_Application_Data.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29514_Npcf_PolicyAuthorization.yaml
+  - TS29522_IPTVConfiguration.yaml
+  - TS29522_ServiceParameter.yaml
+  - TS29522_TrafficInfluence.yaml
+  - TS29551_Nnef_PFDmanagement.yaml
+  - TS29554_Npcf_BDTPolicyControl.yaml
+  - TS29571_CommonData.yaml
+  title: Unified Data Repository Service API file for Application Data
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.519/
+- description: "The API version is defined in 3GPP TS 29.504\n\xA9 2022, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.519 V16.10.0; 5G System; Usage of the Unified Data Repository
+    Service for Policy Data, Application Data and Structured Data for Exposure.
+  file_name: TS29519_Exposure_Data.yaml
+  references:
+  - TS29518_Namf_Communication.yaml
+  - TS29518_Namf_EventExposure.yaml
+  - TS29571_CommonData.yaml
+  title: Unified Data Repository Service API file for structured data for exposure
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.519/
+- description: "The API version is defined in 3GPP TS 29.504\n\xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.519 V16.8.0; 5G System; Usage of the Unified Data Repository
+    Service for Policy Data, Application Data and Structured Data for Exposure.
+  file_name: TS29519_Policy_Data.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29122_ResourceManagementOfBdt.yaml
+  - TS29505_Subscription_Data.yaml
+  - TS29512_Npcf_SMPolicyControl.yaml
+  - TS29554_Npcf_BDTPolicyControl.yaml
+  - TS29571_CommonData.yaml
+  title: Unified Data Repository Service API file for policy data
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.519/
+- description: "Nnwdaf_AnalyticsInfo Service API.  \n\xA9 2022, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n"
+  description2: 3GPP TS 29.520 V16.12.0; 5G System; Network Data Analytics Services.
+  file_name: TS29520_Nnwdaf_AnalyticsInfo.yaml
+  references:
+  - TS29503_Nudm_SDM.yaml
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29520_Nnwdaf_EventsSubscription.yaml
+  - TS29554_Npcf_BDTPolicyControl.yaml
+  - TS29571_CommonData.yaml
+  title: Nnwdaf_AnalyticsInfo
+  url: https://www.3gpp.org/ftp/Specs/archive/29_series/29.520/
+- description: "Nnwdaf_EventsSubscription Service API.  \n\xA9 2023, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n"
+  description2: 3GPP TS 29.520 V16.13.0; 5G System; Network Data Analytics Services.
+  file_name: TS29520_Nnwdaf_EventsSubscription.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29122_CpProvisioning.yaml
+  - TS29503_Nudm_SDM.yaml
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29514_Npcf_PolicyAuthorization.yaml
+  - TS29517_Naf_EventExposure.yaml
+  - TS29520_Nnwdaf_EventsSubscription.yaml
+  - TS29523_Npcf_EventExposure.yaml
+  - TS29531_Nnssf_NSSelection.yaml
+  - TS29554_Npcf_BDTPolicyControl.yaml
+  - TS29571_CommonData.yaml
+  title: Nnwdaf_EventsSubscription
+  url: https://www.3gpp.org/ftp/Specs/archive/29_series/29.520/
+- description: "API for 5G LAN Parameter Provision.\n\xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.522 V16.7.0; 5G System; Network Exposure Function Northbound
+    APIs.
+  file_name: TS29522_5GLANParameterProvision.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29519_Policy_Data.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-5glan-pp
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.522/
+- description: "API for 5G ACS Parameter Provision.\n\xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.522 V16.7.0; 5G System; Network Exposure Function Northbound
+    APIs.
+  file_name: TS29522_ACSParameterProvision.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-acs-pp
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.522/
+- description: "API for Analytics Exposure.\n\xA9 2021, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.522 V16.8.0; 5G System; Network Exposure Function Northbound
+    APIs.
+  file_name: TS29522_AnalyticsExposure.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29122_CpProvisioning.yaml
+  - TS29503_Nudm_SDM.yaml
+  - TS29520_Nnwdaf_EventsSubscription.yaml
+  - TS29523_Npcf_EventExposure.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-analyticsexposure
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.522/
+- description: "API for applying BDT policy\n\xA9 2021, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.522 V16.7.0; 5G System; Network Exposure Function Northbound
+    APIs.
+  file_name: TS29522_ApplyingBdtPolicy.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-applying-bdt-policy
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.522/
+- description: "API for IPTV configuration.\n\xA9 2021, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.522 V16.7.0; 5G System; Network Exposure Function Northbound
+    APIs.
+  file_name: TS29522_IPTVConfiguration.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-iptvconfiguration
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.522/
+- description: "API for Location Privacy Indication Parameters Provisioning.\n\xA9\
+    \ 2022, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\n\
+    All rights reserved.\n"
+  description2: 3GPP TS 29.522 V16.13.0; 5G System; Network Exposure Function Northbound
+    APIs.
+  file_name: TS29522_LpiParameterProvision.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29503_Nudm_SDM.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-lpi-pp
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.522/
+- description: "API for UE updated location information notification.\n\xA9 2021,\
+    \ 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll\
+    \ rights reserved.\n"
+  description2: 3GPP TS 29.522 V16.7.0; 5G System; Network Exposure Function Northbound
+    APIs.
+  file_name: TS29522_MoLcsNotify.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29122_MonitoringEvent.yaml
+  - TS29515_Ngmlc_Location.yaml
+  - TS29571_CommonData.yaml
+  - TS29572_Nlmf_Location.yaml
+  title: 3gpp-mo-lcs-notify
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.522/
+- description: "API for NIDD Configuration Trigger.\n\xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.522 V16.7.0; 5G System; Network Exposure Function Northbound
+    APIs.
+  file_name: TS29522_NIDDConfigurationTrigger.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-nidd-configuration-trigger
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.522/
+- description: "API for AF service paramter\n\xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.522 V16.13.0; 5G System; Network Exposure Function Northbound
+    APIs.
+  file_name: TS29522_ServiceParameter.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-service-parameter
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.522/
+- description: "API for AF traffic influence\n\xA9 2021, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.522 V16.7.0; 5G System; Network Exposure Function Northbound
+    APIs.
+  file_name: TS29522_TrafficInfluence.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29514_Npcf_PolicyAuthorization.yaml
+  - TS29571_CommonData.yaml
+  title: 3gpp-traffic-influence
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.522/
+- description: "PCF Event Exposure Service.\n\xA9 2021, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.523 V16.5.0; 5G System; Policy Control Event Exposure Service;
+    Stage 3.
+  file_name: TS29523_Npcf_EventExposure.yaml
+  references:
+  - TS29508_Nsmf_EventExposure.yaml
+  - TS29512_Npcf_SMPolicyControl.yaml
+  - TS29514_Npcf_PolicyAuthorization.yaml
+  - TS29571_CommonData.yaml
+  title: Npcf_EventExposure
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.523/
+- description: "NSSF NSSAI Availability Service.\n\xA9 2021, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.531 V16.7.0; 5G System; Network Slice Selection Services;
+    Stage 3
+  file_name: TS29531_Nnssf_NSSAIAvailability.yaml
+  references:
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29571_CommonData.yaml
+  title: NSSF NSSAI Availability
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.531/
+- description: "NSSF Network Slice Selection Service.\n\xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.531 V16.7.0; 5G System; Network Slice Selection Services;
+    Stage 3
+  file_name: TS29531_Nnssf_NSSelection.yaml
+  references:
+  - TS29510_Nnrf_NFManagement.yaml
+  - TS29571_CommonData.yaml
+  title: NSSF NS Selection
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.531/
+- description: 'Nspaf Secured Packet Service.
+
+    ? 2020, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).
+
+    All rights reserved.
+
+    '
+  description2: 3GPP TS 29.544, SP-AF Services, version V16.2.0
+  file_name: TS29544_Nspaf_SecuredPacket.yaml
+  references:
+  - TS29503_Nudm_SDM.yaml
+  - TS29509_Nausf_SoRProtection.yaml
+  - TS29571_CommonData.yaml
+  title: Nspaf_SecuredPacket
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.544/
+- description: "Packet Flow Description Management Service.\n\xA9 2021, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.551 v16.10.0, 5G System; Packet Flow Description Management
+    Service
+  file_name: TS29551_Nnef_PFDmanagement.yaml
+  references:
+  - TS29122_PfdManagement.yaml
+  - TS29571_CommonData.yaml
+  title: Nnef_PFDmanagement Service API
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.551/
+- description: "PCF BDT Policy Control Service.\n\xA9 2021, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.554 V16.7.0; 5G System; Background Data Transfer Policy
+    Control Service.
+  file_name: TS29554_Npcf_BDTPolicyControl.yaml
+  references:
+  - TS29122_CommonData.yaml
+  - TS29122_ResourceManagementOfBdt.yaml
+  - TS29571_CommonData.yaml
+  title: Npcf_BDTPolicyControl Service API
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.554/
+- description: "Common Data Types for Service Based Interfaces.\n\xA9 2022, 3GPP Organizational\
+    \ Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.571 Common Data Types for Service Based Interfaces, version
+    16.11.0
+  file_name: TS29571_CommonData.yaml
+  references:
+  - TS29510_Nnrf_AccessToken.yaml
+  - TS29571_CommonData.yaml
+  title: Common Data Types
+  url: https://www.3gpp.org/ftp/Specs/archive/29_series/29.571/
+- description: "LMF Broadcast Service.\n\xA9 2021, 3GPP Organizational Partners (ARIB,\
+    \ ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.572 V16.8.0; 5G System; Location Management Services; Stage
+    3
+  file_name: TS29572_Nlmf_Broadcast.yaml
+  references:
+  - TS29571_CommonData.yaml
+  title: LMF Broadcast
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.572/
+- description: "LMF Location Service.\n\xA9 2022, 3GPP Organizational Partners (ARIB,\
+    \ ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: 3GPP TS 29.572 V16.9.0; 5G System; Location Management Services; Stage
+    3
+  file_name: TS29572_Nlmf_Location.yaml
+  references:
+  - TS29518_Namf_EventExposure.yaml
+  - TS29571_CommonData.yaml
+  title: LMF Location
+  url: http://www.3gpp.org/ftp/Specs/archive/29_series/29.572/
+- description: "ConvergedCharging Service    \xA9 2022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: '3GPP TS 32.291 V16.1314.0: Telecommunication management; Charging
+    management;  5G system, charging service; Stage 3.
+
+    '
+  file_name: TS32291_Nchf_ConvergedCharging.yaml
+  references:
+  - TS29512_Npcf_SMPolicyControl.yaml
+  - TS29520_Nnwdaf_EventsSubscription.yaml
+  - TS29571_CommonData.yaml
+  title: Nchf_ConvergedCharging
+  url: http://www.3gpp.org/ftp/Specs/archive/32_series/32.291/
+- description: "OfflineOnlyCharging Service\n\xA9 20212022, 3GPP Organizational Partners\
+    \ (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).\nAll rights reserved.\n"
+  description2: '3GPP TS 32.291 V16.614.0: Telecommunication management; Charging
+    management;  5G system, charging service; Stage 3.
+
+    '
+  file_name: TS32291_Nchf_OfflineOnlyCharging.yaml
+  references:
+  - TS29512_Npcf_SMPolicyControl.yaml
+  - TS29571_CommonData.yaml
+  title: Nchf_OfflineOnlyCharging
+  url: http://www.3gpp.org/ftp/Specs/archive/32_series/32.291/
